@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "josefin Sans", "Arial Narrow", Arial, sans-serif;
+
+}
+
+.main_div {
+    width: 100%;
+    height: 100vh;
+    background: #bcc7d2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.center_div {
+    width: 50%;
+    height: 80vh;
+    background-color: #113264;
+
+    border-radius: 15px;
+}
+
+h1 {
+    color: white;
+    background: transparent;
+    background-color: #113264;
+    padding: 6px 0 2px 0;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+input {
+    text-align: center;
+    height: 30px;
+    top: 10px;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 500;
+    width: 60%;
+    border-bottom: 2px solid #8566aa;
+    outline: none;
+
+}
+
+.plusicon {
+    min-width: 50px;
+    height: 40px;
+    top: 10px;
+    border-color: transparent;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    margin-left: -40px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+    transition: .6s;
+}
+
+.plusicon:hover {
+    background-color: #bab9b9;
+    margin-top: -10px;
+}
+
+.list {
+    margin-top: 40px;
+}
+
+.deleteicon {
+    position: absolute;
+    right: 650px;
+    color: white;
+}
+
+.editicon {
+    position: absolute;
+    right: 600px;
+    color: white;
+}
+
+.editicon:hover {
+    color: gray;
+}
+
+.deleteicon:hover {
+    color: gray;
+}
+
+ol {
+
+    margin-left: 90px;
+}
+
+ol li {
+
+    padding-left: 0px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.todo_style {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.listitem {
+    margin-left: 10px;
+    margin-top: 5px;
+    color: white;
+}
+
+.todo_style .fa-times {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8566aa;
+    border-radius: 50%;
+    margin: 0 15px 0 35px;
+    color: aliceblue;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+
+}
+
+.todo_style .fa-times:hover {
+    background-color: rgb(212, 19, 58);
+}
+
+.todo_style .fa-times:hover .list_style {
+    color: crimson;
+}
+
+@media (max-width:768px) {
+    .center_div {
+        width: 55%;
+    }
+}
+
+.todo_style .fa-times {
+    margin: 0 15px 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.input {
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+    width: 600px;
+}
+
+.checkicon {
+    color: white;
+}
